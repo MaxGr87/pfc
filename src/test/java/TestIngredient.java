@@ -12,7 +12,7 @@ import static org.jgroups.util.Util.assertEquals;
  * This Test Check creating process of the Ingredient in to the Database.
  * Also this test Check evaluation method (product*weight/100) in Ingredient class.
  */
-public class TestIngredientCreation {
+public class TestIngredient {
 
 
     @Test

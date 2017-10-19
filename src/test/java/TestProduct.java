@@ -11,7 +11,7 @@ import static org.jgroups.util.Util.assertEquals;
  */
 
 
-public class TestProductCreation {
+public class TestProduct {
 
     @Test
     public void testProductCreation() throws Exception {

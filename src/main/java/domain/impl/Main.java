@@ -87,7 +87,7 @@ public class Main {
             }
 
             /** Create Dish Object**/
-            Dish plov = new Dish("plov", ingredient[0], ingredient[1], ingredient[2], ingredient[3], ingredient[4], ingredient[5], ingredient[6], ingredient[7]);
+            Dish plov = new Dish("plov",ingredient);
 
             /** Paste Dish into the database**/
             dishDao.save(plov);
