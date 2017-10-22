@@ -19,6 +19,31 @@
  * ("dish name", Ingredients). After this the proteins,
  * fats, carbohydrates, calories, and weight counted.
  *
+ *
+ * This program has been developed with help next tools:
+ *
+ * Development tools:
+ * - IDEA;
+ *
+ * Database tools:
+ * - MySQL Workbench;
+ *
+ * Database systems:
+ * - MySQL;
+ *
+ * Version control systems:
+ * - Git;
+ *
+ * Build automation tool:
+ * - Maven;
+ *
+ * Frameworks:
+ * - Hibernate;
+ * - Spring;
+ *
+ * Testing:
+ * - JUnit library
+ *
  * Date:
  * 17/10/2017
  *
