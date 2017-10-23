@@ -8,6 +8,13 @@ import util.CustomHibernateDaoSupport;
 
 import java.util.List;
 
+/**class DishDaoImpl
+ *
+ * This class realise DAO layer to make connection
+ * between database and plain Java classes
+ *
+ */
+
 @Transactional
 public class DishDaoImpl extends CustomHibernateDaoSupport implements DishDao {
 

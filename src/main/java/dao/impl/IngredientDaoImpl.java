@@ -7,6 +7,12 @@ import util.CustomHibernateDaoSupport;
 
 import java.util.List;
 
+/**class IngredientDaoImpl
+ *
+ * This class realise DAO layer to make connection
+ * between database and plain Java classes
+ *
+ */
 @Transactional
 public class IngredientDaoImpl extends CustomHibernateDaoSupport implements IngredientDao {
 

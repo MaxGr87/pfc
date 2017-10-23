@@ -9,7 +9,6 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-
     <properties>
         <hibernate-version>4.3.8.Final</hibernate-version>
         <spring.version>4.1.5.RELEASE</spring.version>
@@ -53,26 +52,31 @@
             <artifactId>hibernate-osgi</artifactId>
             <version>${hibernate-version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-envers</artifactId>
             <version>${hibernate-version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-c3p0</artifactId>
             <version>${hibernate-version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-proxool</artifactId>
             <version>${hibernate-version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-infinispan</artifactId>
             <version>${hibernate-version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-ehcache</artifactId>
@@ -131,11 +135,13 @@
             <artifactId>commons-dbcp</artifactId>
             <version>1.4</version>
         </dependency>
+
         <dependency>
             <groupId>commons-pool</groupId>
             <artifactId>commons-pool</artifactId>
             <version>1.6</version>
         </dependency>
+
         <dependency>
             <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>
@@ -175,7 +181,6 @@
 
     </dependencies>
 
-
     <repositories>
         <repository>
             <id>io.spring.repo.maven.release</id>
@@ -184,6 +189,5 @@
         </repository>
 
     </repositories>
-
 
 </project>
