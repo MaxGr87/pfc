@@ -29,7 +29,7 @@ public class Dish implements domain.Dish {
     private Integer id;
 
 
-    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.REFRESH)
     @JoinTable(
             name = "DishIngredient",
             joinColumns = @JoinColumn(

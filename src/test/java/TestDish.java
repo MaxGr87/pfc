@@ -77,7 +77,7 @@ public class TestDish {
 
         Ingredient[] ingredient = new Ingredient[8];
 
-        ingredient[0] = new Ingredient("pork", productDao.findByProductName("Pork"), 500.0);
+        ingredient[0] = new Ingredient("Pork", productDao.findByProductName("Pork"), 500.0);
         ingredient[1] = new Ingredient("Rice", productDao.findByProductName("Rice"), 400.00);
         ingredient[2] = new Ingredient("Carrot", productDao.findByProductName("Carrot"), 250.00);
         ingredient[3] = new Ingredient("Onyon",productDao.findByProductName("Onyon"), 300.00);
@@ -92,6 +92,7 @@ public class TestDish {
 
         Dish plov = new Dish("Plov",  ingredient);
         dishDao.save(plov);
+
 
 
         assertEquals("Checking total weight", 1552.0, dishDao.findByDishName("Plov").getWeight());

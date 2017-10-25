@@ -112,7 +112,7 @@ public class Main {
             }
 
             /** Create Dish Object**/
-            Dish plov = new Dish("plov",ingredient);
+            Dish plov = new Dish("Plov",ingredient);
 
             /** Paste Dish into the database**/
             dishDao.save(plov);
@@ -134,6 +134,8 @@ public class Main {
 //            dishDao.update(d);
 //
             /** delete **/
+
+//          dishDao.delete(dishDao.findByDishName("Plov"));
 
             System.out.println("Done");
 
